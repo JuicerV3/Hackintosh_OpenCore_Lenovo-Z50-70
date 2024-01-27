@@ -8,8 +8,8 @@
  * iGPU: intel HD Graphics 4400
  * dGPU: ~~GeForce GT 840M 4gb~~
  * Ram: 8gb 4x4
- * DRIVE1 SSD: WDC WDS240G2G0A-00JH30
- * DRIVE2 HDD: ST1000LM024 HN-M101MBB
+ * DRIVE1 SSD: WDC WDS240G2G0A-00JH30 240gb
+ * DRIVE2 HDD: ST1000LM024 HN-M101MBB 1tb
  * Keyboard connection: PS/2
  * Audio: Conexant CX20751/2 @ Intel Lynx Point-LP PCH - High Definition Audio Controller [B2]
  * Ethernet: Realtek RTL8168/8111 PCI-E Gigabit Ethernet Adapter (PHY: Realtek RTL8111)
