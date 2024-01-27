@@ -2,7 +2,7 @@
 
 # Opencore 9.7 Stable - MacOS Monterey 12.7.3 - Lenovo Z50-70 59422137
 
-## Laptop Specs/Detail
+## Laptop Specs/Details
  * Model: Lenovo Z50-70 59422137
  * Processor: Core i7-4120U
  * iGPU: intel HD Graphics 4400
