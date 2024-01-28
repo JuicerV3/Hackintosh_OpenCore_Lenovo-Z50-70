@@ -38,6 +38,6 @@
 
 ## Guides
  * https://dortania.github.io/OpenCore-Install-Guide/ (Throughout whole process)
- * https://dortania.github.io/OpenCore-Post-Install/misc/rtc.html#finding-our-bad-rtc-region (Wake restart fix)
+ * https://dortania.github.io/OpenCore-Post-Install/misc/rtc.html#fixing-rtc-write-issues (Wake restart fix)
  * https://openintelwireless.github.io/itlwm/ (Native Intel WiFi)
  * https://openintelwireless.github.io/IntelBluetoothFirmware/ (Native Intel Bluetooth)
