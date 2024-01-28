@@ -15,7 +15,7 @@
  * Ethernet: Realtek RTL8168/8111 PCI-E Gigabit Ethernet Adapter (PHY: Realtek RTL8111)
  * WLAN: ~~Atheros AR9565 802.11b/g/n Wireless Network Adapter~~ / Intel Dual Band Wireless AC 3160
 
-## What works
+### What works
  * GPU Acceleration
  * WiFi
  * Bluetooth
@@ -29,7 +29,7 @@
  * Keyboard & Trackpad
  * Sleep Wake
 
-## What not works
+### What not works
  * lid wake/sleep
 
 ### Untested
