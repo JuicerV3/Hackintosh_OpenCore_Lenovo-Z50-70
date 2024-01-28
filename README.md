@@ -29,6 +29,9 @@
  * Keyboard & Trackpad
  * Sleep Wake
 
+## What not works
+ * lid wake/sleep
+
 ### Untested
  * VGA Output
  * DVD Drive (SATA hardware should all work)
