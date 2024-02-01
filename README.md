@@ -21,6 +21,7 @@
  * Bluetooth
  * Ethernet
  * Onboard Audio
+ * Onboard Microphone
  * Display Brightness
  * Webcam
  * USB 3.0
@@ -33,7 +34,9 @@
  * lid wake/sleep
 
 ### Untested
- * VGA Output
+ * VGA Video out
+ * 3.5mm Audio out
+ * SDcard Reader
  * DVD Drive (SATA hardware should all work)
 
 ## Guides
