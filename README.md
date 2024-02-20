@@ -4,7 +4,8 @@
 
 ## Laptop Specs/Details
  * Model: Lenovo Z50-70 59422137
- * Processor: Core i7-4510U
+ * Processor: 4th gen Core i7-4510U Haswell
+ * CPUID: Intel(R) Core(TM) i7-4510U CPU @ 2.00GHz
  * iGPU: intel HD Graphics 4400
  * dGPU: ~~GeForce GT 840M 4gb~~
  * Ram: 8gb 4x4
@@ -28,7 +29,7 @@
  * HDMI
  * Battery read-outs
  * Keyboard & Trackpad
- * Sleep Wake
+ * Sleep Wake (sometime break)
 
 ### What not works
  * lid wake/sleep
