@@ -29,16 +29,21 @@
  * HDMI
  * Battery read-outs
  * Keyboard & Trackpad
- * Sleep Wake (sometime break)
+ * Sleep Wake
 
 ### What not works
  * lid wake/sleep
+ * Airdrop 
 
 ### Untested
  * VGA Video out
  * 3.5mm Audio out
  * SDcard Reader
  * DVD Drive (SATA hardware should all work)
+
+### Known issues
+ * Sleep wake may break on some scenario.
+ * Bluetooth hash mismatch problem caused Bluetooth to fail.
 
 ## Guides
  * https://dortania.github.io/OpenCore-Install-Guide/ (Throughout whole process)
