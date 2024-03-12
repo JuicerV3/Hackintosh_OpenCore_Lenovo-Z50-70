@@ -3,8 +3,12 @@
 # Opencore 0.9.9 Stable - MacOS Monterey 12.7.4 - Lenovo Z50-70 59422137
 
 ### Latest changes
-* Updated to Monterey 12.7.4 via OTA
-* Updated to OpenCore 0.9.9
+* Can update to Monterey 12.7.4 via OTA
+* Update to OpenCore 0.9.9
+* Update AirportItlwm to v2.3.0-alpha
+* Update IntelBluetoothFirmware to v2.4.0
+* Add back IntelBTPatcher v2.4.0
+* Update AppleALC to 1.8.9
 
 ## Laptop Specs/Details
  * Model: Lenovo Z50-70 59422137
@@ -34,6 +38,7 @@
  * Battery read-outs
  * Keyboard & Trackpad
  * Sleep Wake
+ * OTA Update
 
 ### What not works
  * lid wake/sleep
