@@ -1,6 +1,10 @@
-![Screen Shot 2567-01-28 at 02 08 24](https://github.com/JuicerV3/Opencore-Monterey-Z50-70/assets/156657646/c883ef99-5294-4f54-8481-651687c2e1da)
+![Screen Shot 2567-03-12 at 1 08 07 PM](https://github.com/JuicerV3/Opencore-Monterey-Z50-70/assets/156657646/96b9f14f-0e82-442b-b752-4030e62a6657)
 
-# Opencore 9.7 Stable - MacOS Monterey 12.7.3 - Lenovo Z50-70 59422137
+# Opencore 0.9.9 Stable - MacOS Monterey 12.7.4 - Lenovo Z50-70 59422137
+
+## Latest changes
+* Updated to Monterey 12.7.4 via OTA
+* Updated to OpenCore 0.9.9
 
 ## Laptop Specs/Details
  * Model: Lenovo Z50-70 59422137
