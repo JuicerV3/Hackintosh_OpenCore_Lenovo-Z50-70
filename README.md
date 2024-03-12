@@ -49,8 +49,9 @@
  * Sleep wake may break on some scenario.
  * Bluetooth hash mismatch problem caused Bluetooth to fail.
 
-## Guides
- * https://dortania.github.io/OpenCore-Install-Guide/ (Throughout whole process)
+## Links/Guides
+ * https://github.com/acidanthera/OpenCorePkg (OpenCore Bootloader)
+ * https://dortania.github.io/OpenCore-Install-Guide/ (OpenCore Setup,Installation,Troubleshooting)
  * https://dortania.github.io/OpenCore-Post-Install/misc/rtc.html#fixing-rtc-write-issues (Wake restart fix)
  * https://openintelwireless.github.io/itlwm/ (Native Intel WiFi)
  * https://openintelwireless.github.io/IntelBluetoothFirmware/ (Native Intel Bluetooth)
