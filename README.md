@@ -2,7 +2,7 @@
 
 # Opencore 0.9.9 Stable - MacOS Monterey 12.7.4 - Lenovo Z50-70 59422137
 
-## Latest changes
+### Latest changes
 * Updated to Monterey 12.7.4 via OTA
 * Updated to OpenCore 0.9.9
 
