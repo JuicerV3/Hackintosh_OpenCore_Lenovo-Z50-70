@@ -26,7 +26,7 @@ macOS 12 Monterey is the last supported macOS for Haswell system (Intel 4th-gen 
 ## How to check laptop model
 * To check **laptop type** head to [Lenovo Z50-70 support](https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/lenovo-z-series-laptops/lenovo-z50-70) page. then enter your serial number in the box (S/N number located under your laptop) and then check your laptop name and model type (E.g.Z50-70 Laptop (Lenovo) - Type 80E7)
 * Laptop **model name** located under your laptop (E.g.20354)
-* If your type/modelname match my laptop then you can use my EFI with/without issue if not then grab what work build&test it yourself. if any of this match you should be good **Laptop model:(80E7 / 20354 / 59422137)**
+* If your type/modelname match my laptop then you can use my EFI with/without issue if not then grab what work build&test it yourself. if any of these match you should be good **Laptop model:(80E7 / 20354 / 59422137)**
 
 ## Latest changes (12 march)
 * Tested OTA Update Monterey 12.7.4
