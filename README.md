@@ -37,6 +37,7 @@ macOS 12 Monterey is the last supported macOS for Haswell system (Intel 4th-gen 
 * Update AppleALC to 1.8.9
 
 ### Known issues
+* Screen flickering/blinking (Frequently happens while performing graphics intensive tasks and also happens randomly sometimes. **Doesn't affect day-to-day use.**)
 * Bluetooth hash mismatch problem caused Bluetooth to fail. (This happened randomly)
 * Laptop will not respond to USB input while in sleep mode but still provide power to USB devices. (Use build-in keyboard/touchpad or power button to wake it up)
 * Sleep wake may break in some scenarios. (If laptop wakes during lid close, it will cause an unresponsive blackscreen and need to force restart) (Shutdown before packing it in your bag. plastic frame can easily trigger keyboard input and cause it to wake up to blackscreen and heat up inside your bag)
