@@ -28,7 +28,7 @@ macOS 12 Monterey is the last supported macOS for Haswell system (Intel 4th-gen 
 * Laptop **model name** located under your laptop (E.g.20354)
 * If your type/modelname match my laptop then you can use my EFI with/without issue if not then grab what work build&test it yourself. if any of these match you should be good **Laptop model:(80E7 / 20354 / 59422137)**
 
-## Latest changes (12 march)
+## Latest changes (May 28)
 * Update Monterey 12.7.5
 * Update to OpenCore 1.0.0
 * Update AppleALC to 1.9.0
