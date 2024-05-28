@@ -1,6 +1,6 @@
-![Screen Shot 2567-03-12 at 1 08 07 PM](https://github.com/JuicerV3/Opencore-Monterey-Z50-70/assets/156657646/96b9f14f-0e82-442b-b752-4030e62a6657)
+![Screen Shot 2567-05-28 at 22 16 02](https://github.com/JuicerV3/Opencore-Monterey-Z50-70/assets/156657646/ec3ab25c-1342-410f-b5d7-33fb29c11272)
 
-# OpenCore 0.9.9 Stable - macOS Monterey 12.7.4 - Lenovo Z50-70 Type 80E7 59422137
+# OpenCore 1.0.0 Stable - macOS Monterey 12.7.5 - Lenovo Z50-70 Type 80E7 59422137
 
 macOS 12 Monterey is the last supported macOS for Haswell system (Intel 4th-gen core cpu 2013) to install macOS 13 Ventura or newer please refer to [OpenCore Legacy Patcher](https://dortania.github.io/OpenCore-Legacy-Patcher/).
 
@@ -29,12 +29,9 @@ macOS 12 Monterey is the last supported macOS for Haswell system (Intel 4th-gen 
 * If your type/modelname match my laptop then you can use my EFI with/without issue if not then grab what work build&test it yourself. if any of these match you should be good **Laptop model:(80E7 / 20354 / 59422137)**
 
 ## Latest changes (12 march)
-* Tested OTA Update Monterey 12.7.4
-* Update to OpenCore 0.9.9
-* Update AirportItlwm to v2.3.0-alpha
-* Update IntelBluetoothFirmware to v2.4.0
-* Add back IntelBTPatcher v2.4.0
-* Update AppleALC to 1.8.9
+* Update Monterey 12.7.5
+* Update to OpenCore 1.0.0
+* Update AppleALC to 1.9.0
 
 ### Known issues
 * Screen flickering/blinking (Frequently happens while performing graphics intensive tasks and also happens randomly sometimes. **Doesn't affect day-to-day use.**)
