@@ -6,27 +6,12 @@ macOS 12 Monterey is the last supported macOS for Haswell system (Intel 4th-gen 
 
 ```
 * I am not responsible for any damage done to your device. Use at your own risk.
-* thermonuclear war, or you getting fired because of the broken software. Please
-* do some research if you have any concerns about features included in this EFI.
-* Before continuing, you are choosing to make these modifications yourself, if any
-* thing goes wrong, it is your responsible for all the damage done to your device.
+* Please do some research if you concerns about features included in this EFI.
+* Before continuing, you are choosing to make these modifications yourself
+* if any thing goes wrong, it is your responsible for the damage that happen next.
 ```
 
 * I will continue to update this EFI _periodically_ as long as im using it. This repo will be archived if im no longer using this OS.
-
-```
-* The general rule is to build your own EFI from ground up yourself.
-* Using pre-built EFI won't teach you anything, and you will get a hard
-* Time troubleshooting stuff. Second, this isn't a stable OS to rely on.
-* If your work depends on your laptop, Consider getting a real Macintosh.
-```
-
-**Before continue:** If you have difference **Wlan card** other than Intel (Intel Dual Band Wireless AC 3160 compatible kexts were used) **removes/excludes: _AirportItlwm.kext, BlueToolFixup.kext, IntelBTPatcher.kext, IntelBluetoothFirmware.kext_** from **EFI/OC/Kexts** folder and **config.plist** and replace with one that work for your modem. otherwise Wifi&Bluetooth will not work properly or will not boot at all.
-
-## How to check laptop model
-* To check **laptop type** head to [Lenovo Z50-70 support](https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/lenovo-z-series-laptops/lenovo-z50-70) page. then enter your serial number in the box (S/N number located under your laptop) and then check your laptop name and model type (E.g.Z50-70 Laptop (Lenovo) - Type 80E7)
-* Laptop **model name** located under your laptop (E.g.20354)
-* If your type/modelname match my laptop then you can use my EFI with/without issue if not then grab what work build&test it yourself. if any of these match you should be good **Laptop model:(80E7 / 20354 / 59422137)**
 
 ## Latest changes (May 28)
 * Update Monterey 12.7.5
@@ -34,11 +19,11 @@ macOS 12 Monterey is the last supported macOS for Haswell system (Intel 4th-gen 
 * Update AppleALC to 1.9.0
 
 ### Known issues
-* Screen flickering/blinking (Frequently happens while performing graphics intensive tasks and also happens randomly sometimes. **Doesn't affect day-to-day use.**)
-* Bluetooth hash mismatch problem caused Bluetooth to fail. (This happens randomly)
+* Screen flickering/blinking (Frequently happens while performing graphics intensive tasks and also happens randomly sometimes.
+* Bluetooth hash mismatch problem caused Bluetooth to fail. (Happens randomly, bluetooth will back to work after sometime)
 * Laptop will not respond to USB input while in sleep mode but still provide power to USB devices. (Use build-in keyboard/touchpad or power button to wake it up)
-* Sleep wake may break in some scenarios. (If laptop wakes during lid close, it will cause an unresponsive blackscreen and need to force restart) (Shutdown before packing it in your bag. plastic frame can easily trigger keyboard input and cause it to wake up to blackscreen and heat up inside your bag)
-
+* Sleep wake may break in some scenarios. (If laptop somehow wakes during lid close, it will cause an unresponsive blackscreen and need to force restart)
+* Only Volume keys work natively
 
 ### What works
 * Native OTA Updates
@@ -46,23 +31,25 @@ macOS 12 Monterey is the last supported macOS for Haswell system (Intel 4th-gen 
 * WiFi & Bluetooth
 * Ethernet
 * Onboard Audio & Microphone
-* Display Brightness
+* Display Brightness Control
 * Webcam
 * USB 2.0 & 3.0
-* HDMI (HDMI audio-out not tested yet. Video-out tested and working)
+* HDMI Output
 * Battery read-out (Battery percentage)
 * Keyboard & Trackpad
+* Volume keys
 * Sleep & Wake
 
 ### What not works
 * lid wake & sleep (Laptop will not enter sleep or wake when open/close the lid. Display will still turn off when lid closed its handle by BIOS/UEFI)
-* Airdrop
+* Airdrop & Continuity Features
+* Brightness control keys
+* Build-in Windows control keys: Close window, Refresh, Airplane mode, Task switch, Display toggle (Some can be remapped)
 
 ### Untested
 * VGA Video out
 * 3.5mm Audio out
 * SDcard Reader
-* DVD Drive (I swapped to HDD caddy for dual hard drives setup. SATA devices should all work including DVD Drive.)
 
 ## Laptop Specs/Details
 * Model: Lenovo Z50-70 Type 80E7/20354/59422137
@@ -77,6 +64,13 @@ macOS 12 Monterey is the last supported macOS for Haswell system (Intel 4th-gen 
 * Audio: Conexant CX20751/2 @ Intel Lynx Point-LP PCH - High Definition Audio Controller [B2]
 * Ethernet: Realtek RTL8168/8111 PCI-E Gigabit Ethernet Adapter (PHY: Realtek RTL8111)
 * WLAN: ~~Atheros AR9565 802.11b/g/n Wireless Network Adapter~~ / Intel Dual Band Wireless AC 3160
+
+**Before continue:** If you have difference **Wlan card** other than Intel (Intel Dual Band Wireless AC 3160 compatible kexts were used) **removes/excludes: _AirportItlwm.kext, BlueToolFixup.kext, IntelBTPatcher.kext, IntelBluetoothFirmware.kext_** from **EFI/OC/Kexts** folder and **config.plist** and replace with one that work for your modem. otherwise Wifi&Bluetooth will not work properly or will not boot at all.
+
+## How to check laptop model
+* To check **laptop model** head to [Lenovo Z50-70 support](https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/lenovo-z-series-laptops/lenovo-z50-70) page. then enter your serial number in the box (S/N number located under your laptop) and then check your laptop name and type (E.g. Z50-70 Laptop (Lenovo) - Type 80E7)
+* Laptop **model name** located under your laptop (E.g. 20354)
+* If your type/modelname match my laptop then you can use my EFI with little/without issue if not then grab what work build&test it yourself. **Laptop model:(80E7 / 20354 / 59422137)**
 
 ## Links/Guides
 * https://github.com/acidanthera/OpenCorePkg (OpenCore Bootloader)
