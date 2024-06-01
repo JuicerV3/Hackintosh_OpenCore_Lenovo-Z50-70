@@ -67,6 +67,15 @@ macOS 12 Monterey is the lastest supported macOS for Haswell system (2013 Intel 
 
 **Before continue:** If you have difference **Wlan card** other than Intel (Intel Dual Band Wireless AC 3160 compatible kexts were used) **removes/excludes: _AirportItlwm.kext, BlueToolFixup.kext, IntelBTPatcher.kext, IntelBluetoothFirmware.kext_** from **EFI/OC/Kexts** folder and **config.plist** and replace with one that work for your modem. otherwise Wifi&Bluetooth will not work properly or will not boot at all.
 
+## Bios/UEFI Settings
+**Configuration**
+* Graphic Device: UMA Only
+* Intel Virtual Technology: Enable (Can be enabled. Already configured in config.plist)
+
+**Boot**
+* Boot mode: Legacy Supported
+* Boot Prioriy: UEFI First
+
 ## How to check laptop model
 * To check **laptop model** head to [Lenovo Z50-70 support](https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/lenovo-z-series-laptops/lenovo-z50-70) page. then enter your serial number in the box (S/N number located under your laptop) and then check your laptop name and type (E.g. Z50-70 Laptop (Lenovo) - Type 80E7)
 * Laptop **model name** located under your laptop (E.g. 20354)
