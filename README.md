@@ -2,7 +2,7 @@
 
 # OpenCore 1.0.0 Stable - macOS Monterey 12.7.5 - Lenovo Z50-70 Type 80E7 59422137
 
-macOS 12 Monterey is the last supported macOS for Haswell system (Intel 4th-gen core cpu 2013) to install macOS 13 Ventura or newer please refer to [OpenCore Legacy Patcher](https://dortania.github.io/OpenCore-Legacy-Patcher/).
+macOS 12 Monterey is the lastest supported macOS for Haswell system (2013 Intel 4th-gen core cpu) for macOS 13 Ventura or newer please refer to [OpenCore Legacy Patcher](https://dortania.github.io/OpenCore-Legacy-Patcher/).
 
 ```
 * I am not responsible for any damage done to your device. Use at your own risk.
@@ -19,11 +19,11 @@ macOS 12 Monterey is the last supported macOS for Haswell system (Intel 4th-gen 
 * Update AppleALC to 1.9.0
 
 ### Known issues
-* Screen flickering/blinking (Frequently happens while performing graphics intensive tasks and also happens randomly sometimes.
+* Screen flickering/blinking (Frequently happens while performing graphics intensive tasks and also happens randomly sometimes.)
 * Bluetooth hash mismatch problem caused Bluetooth to fail. (Happens randomly, bluetooth will back to work after sometime)
 * Laptop will not respond to USB input while in sleep mode but still provide power to USB devices. (Use build-in keyboard/touchpad or power button to wake it up)
-* Sleep wake may break in some scenarios. (If laptop somehow wakes during lid close, it will cause an unresponsive blackscreen and need to force restart)
-* Only Volume keys work natively
+* Sleep wake may break in some scenarios. (If laptop somehow wakes during lid close, it will wake to an unresponsive blackscreen and need to force restart)
+* Only Volume control keys work natively
 
 ### What works
 * Native OTA Updates
