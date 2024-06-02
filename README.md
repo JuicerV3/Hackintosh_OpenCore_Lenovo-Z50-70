@@ -13,10 +13,19 @@ macOS 12 Monterey is the lastest supported macOS for Haswell system (2013 Intel 
 
 * I will continue to update this EFI _periodically_ as long as im using it. This repo will be archived if im no longer using this OS.
 
-## Latest changes (May 28)
-* Update Monterey 12.7.5
+### **Note:** From now you need to generate your own SMBIOS to signin with Apple ID
+Use CorpNewt's [GENSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate platforminfo with **MacBookPro11,4** as an SMBIOS for Monterey. Head to [Dortania's haswell platforminfo guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/haswell.html#platforminfo) for in-depth guide.
+
+## Latest changes (2 June)
+* Native OTA Monterey 12.7.5
 * Update to OpenCore 1.0.0
 * Update AppleALC to 1.9.0
+* Update IntelBluetoothFirmware to 2.4.0
+* Added GoldenGate Boot picker GUI (3s timeout)
+* Fixed boot chime audio output
+* Need your own SMBIOS
+* Bluetooth hash mismatch likely to be fixed
+* Wake to blackscreen likely to be fixed
 
 ### Known issues
 * Screen flickering/blinking (Frequently happens while performing graphics intensive tasks and also happens randomly sometimes.)
