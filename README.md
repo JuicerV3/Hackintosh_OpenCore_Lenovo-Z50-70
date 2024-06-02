@@ -32,7 +32,8 @@ Use CorpNewt's [GENSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate pl
 * Bluetooth hash mismatch problem caused Bluetooth to fail. (Happens randomly, bluetooth will back to work after sometime)
 * Laptop will not respond to USB input while in sleep mode but still provide power to USB devices. (Use build-in keyboard/touchpad or power button to wake it up)
 * Sleep wake may break in some scenarios. (If laptop somehow wakes during lid close, it will wake to an unresponsive blackscreen and need to force restart)
-* Only Volume control keys work natively
+* Only Volume control keys work natively.
+* Only buildin keyboard input work in Bootpicker and login screen.
 
 ### What works
 * Native OTA Updates
