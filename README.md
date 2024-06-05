@@ -16,7 +16,7 @@ macOS 12 Monterey is the lastest supported macOS for Haswell system (2013 Intel 
 ### **Note:** From now you need to generate your own SMBIOS to signin with Apple ID
 Use CorpNewt's [GENSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate platforminfo with **MacBookPro11,4** as an SMBIOS for Monterey. Head to [Dortania's haswell platforminfo guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/haswell.html#platforminfo) for in-depth guide.
 
-## Latest changes (2 June)
+## Latest changes (5 June)
 * Native OTA Monterey 12.7.5
 * Update to OpenCore 1.0.0
 * Update AppleALC to 1.9.0
@@ -24,12 +24,12 @@ Use CorpNewt's [GENSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate pl
 * Added GoldenGate Boot picker GUI (3s timeout)
 * Fixed boot chime audio output
 * Need your own SMBIOS
-* Bluetooth hash mismatch likely to be fixed
+* Fixed Bluetooth hash mismatch 
 * Wake to blackscreen likely to be fixed
 
 ### Known issues
 * Screen flickering/blinking (Frequently happens while performing graphics intensive tasks and also happens randomly sometimes.)
-* Bluetooth hash mismatch problem caused Bluetooth to fail. (Happens randomly, bluetooth will back to work after sometime)
+* ~~Bluetooth hash mismatch problem caused Bluetooth to fail. (Happens randomly, bluetooth will back to work after sometime)~~
 * Laptop will not respond to USB input while in sleep mode but still provide power to USB devices. (Use build-in keyboard/touchpad or power button to wake it up)
 * Sleep wake may break in some scenarios. (If laptop somehow wakes during lid close, it will wake to an unresponsive blackscreen and need to force restart)
 * Only Volume control keys work natively.
