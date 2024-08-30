@@ -1,6 +1,6 @@
 ![Screen Shot 2567-05-28 at 22 16 02](https://github.com/JuicerV3/Opencore-Monterey-Z50-70/assets/156657646/ec3ab25c-1342-410f-b5d7-33fb29c11272)
 
-# OpenCore 1.0.0 Stable - macOS Monterey 12.7.5 - Lenovo Z50-70 Type 80E7 59422137
+# OpenCore 1.0.1 Stable - macOS Monterey 12.7.5 - Lenovo Z50-70 Type 80E7 59422137
 
 macOS 12 Monterey is the lastest supported macOS for Haswell system (2013 Intel 4th-gen core cpu) for macOS 13 Ventura or newer please refer to [OpenCore Legacy Patcher](https://dortania.github.io/OpenCore-Legacy-Patcher/).
 
@@ -16,7 +16,10 @@ macOS 12 Monterey is the lastest supported macOS for Haswell system (2013 Intel 
 ### **Note:** From now you need to generate your own SMBIOS to signin with Apple ID
 Use CorpNewt's [GENSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate platforminfo with **MacBookPro11,4** as an SMBIOS for Monterey. Head to [Dortania's haswell platforminfo guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/haswell.html#platforminfo) for in-depth guide.
 
-## Latest changes (5 June)
+## latest changes (30 Aug)
+* Update to OpenCore 1.0.1
+
+## Previous changes (5 June)
 * Native OTA Monterey 12.7.5
 * Update to OpenCore 1.0.0
 * Update AppleALC to 1.9.0
