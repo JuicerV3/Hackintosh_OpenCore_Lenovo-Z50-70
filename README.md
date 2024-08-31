@@ -14,7 +14,7 @@ macOS 12 Monterey is the lastest supported macOS for Haswell system (2013 Intel 
 * I will continue to update this EFI _periodically_ as long as im using it. This repo will be archived if im no longer using this OS.
 
 ### **Note:** From now you need to generate your own SMBIOS to signin with Apple ID
-Use CorpNewt's [GENSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate platforminfo with **MacBookPro11,4** as an SMBIOS for Monterey. Head to [Dortania's haswell platforminfo guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/haswell.html#platforminfo) for in-depth guide.
+Use CorpNewt's [GENSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate platforminfo using **MacBookPro11,4** as an SMBIOS for Monterey. Head to [Dortania's haswell platforminfo guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/haswell.html#platforminfo) for in-depth guide.
 
 ## latest changes (30 Aug)
 * Update to OpenCore 1.0.1
@@ -36,7 +36,7 @@ Use CorpNewt's [GENSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate pl
 * Laptop will not respond to USB input while in sleep mode but still provide power to USB devices. (Use build-in keyboard/touchpad or power button to wake it up)
 * Sleep wake may break in some scenarios. (If laptop somehow wakes during lid close, it will wake to an unresponsive blackscreen and need to force restart)
 * Only Volume control keys work natively.
-* Only buildin keyboard input work in Bootpicker and login screen.
+* Mouse input not working in OpenCore Bootpicker and login screen.
 
 ### What works
 * Native OTA Updates
