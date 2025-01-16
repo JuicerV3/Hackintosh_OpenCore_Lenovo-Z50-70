@@ -19,16 +19,6 @@ Keep in mind macOS 14 Sonoma is **NOT NATIVELY** supported for Haswell system. t
 ### From now you need to generate your own SMBIOS to signin with Apple ID
 Use CorpNewt's [GENSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate platforminfo using **MacBookPro15,2** as an SMBIOS for Sonoma. Head to [Dortania's haswell platforminfo guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/haswell.html#platforminfo) for in-depth guide.
 
-### Wlan Related kext
-If you have difference **Wlan card** other than Intel ([OpenIntelWireless](https://openintelwireless.github.io/) kexts were used for both WiFi and Bluetooth)
-#### **removes/excludes:**
-* AirportItlwm.kext
-* BlueToolFixup.kext
-* IntelBTPatcher.kext
-* IntelBluetoothFirmware.kext
-
-from **EFI/OC/Kexts** folder and **config.plist** then replace with one that work for your card.
-
 ## latest changes (Update 15 September)
 * Updated to OpenCore Legacy Patcher 2.0.0 patch
 
