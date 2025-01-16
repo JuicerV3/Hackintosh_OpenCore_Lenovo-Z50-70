@@ -53,7 +53,7 @@ Use CorpNewt's [GENSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate pl
 * Sleep wake may break in some scenarios. (If laptop somehow wakes during lid close, it will wake to an unresponsive blackscreen and need force restart)
 * Mouse input not working in OpenCore Bootpicker and login screen. (use keyboard to navigate)
 
-### Wlan Related kext
+## Wlan Related kext
 If you have difference **Wlan card** other than Intel ([OpenIntelWireless](https://openintelwireless.github.io/) kexts were used for both WiFi and Bluetooth in this EFI)
 #### **removes/excludes:**
 * `AirportItlwm.kext`

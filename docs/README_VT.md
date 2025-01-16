@@ -46,7 +46,7 @@ Most(every?) issues come from OpenCore itself see [Hackintosh_OpenCore_Lenovo-Z5
 * [Legacy Metal Graphics issues](https://github.com/dortania/OpenCore-Legacy-Patcher/issues/1008)
   * GeForce Now app crashing due to Metal acceleration problem.
 
-### Wlan Related kext
+## Wlan Related kext
 If you have difference **Wlan card** other than Intel ([OpenIntelWireless](https://openintelwireless.github.io/) kexts were used for both WiFi and Bluetooth in this EFI)
 #### **removes/excludes:**
 * `AirportItlwm.kext`
