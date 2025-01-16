@@ -3,9 +3,9 @@
 # OpenCore 1.0.1 Stable - macOS Monterey 12 - Lenovo Z50-70 (Type 80E7)
 
 **Haswell** system (2013 Intel 4th-gen core cpu) support up to **macOS 12 Monterey**.
-macOS 13 Ventura and newer you need [OpenCore Legacy Patcher](https://dortania.github.io/OpenCore-Legacy-Patcher/). Head to my another repo.
-* [[OCLP] Ventura 13 Lenovo Z5070](https://github.com/JuicerV3/OCLP-Ventura-Z50-70)
-* [[OCLP] Sonoma 14 Lenovo Z5070](https://github.com/JuicerV3/OCLP_Sonoma_Lenovo-Z50-70)
+macOS 13 Ventura and newer you need [OpenCore Legacy Patcher](https://dortania.github.io/OpenCore-Legacy-Patcher/). check below.
+* [[OCLP] Ventura 13 Lenovo Z5070](./docs/README_VT.md)
+* [[OCLP] Sonoma 14 Lenovo Z5070](./docs/README_SN.md)
 
 ```
 * I am not responsible for any damage done to your device. Use at your own risk.
