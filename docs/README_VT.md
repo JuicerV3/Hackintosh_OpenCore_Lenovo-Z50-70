@@ -72,7 +72,9 @@ Most things is handle by OpenCore we only use OCLP for GPU Acceleration
 More info [Hackintosh_OpenCore_Lenovo-Z50-70](https://github.com/JuicerV3/Hackintosh_OpenCore_Lenovo-Z50-70)
 
 ## Links/Guides
-* https://github.com/JuicerV3/Hackintosh_OpenCore_Lenovo-Z50-70 (Native OpenCore Monterey repository)
+* https://github.com/acidanthera/OpenCorePkg (OpenCore Bootloader)
+* https://dortania.github.io/OpenCore-Install-Guide/ (OpenCore Setup,Installation,Troubleshooting)
+* https://dortania.github.io/OpenCore-Post-Install/misc/rtc.html#fixing-rtc-write-issues (Wake restart fix)
 * https://github.com/dortania/OpenCore-Legacy-Patcher (OCLP)
 * https://openintelwireless.github.io/itlwm/ (Native Intel WiFi)
 * https://openintelwireless.github.io/IntelBluetoothFirmware/ (Native Intel Bluetooth)
