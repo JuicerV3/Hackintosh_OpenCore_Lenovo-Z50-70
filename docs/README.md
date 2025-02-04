@@ -1,6 +1,6 @@
 ![Screen Shot 2567-05-28 at 22 16 02](https://github.com/JuicerV3/Opencore-Monterey-Z50-70/assets/156657646/ec3ab25c-1342-410f-b5d7-33fb29c11272)
 
-# OpenCore 1.0.1 Stable - macOS Monterey 12 - Lenovo Z50-70 (Type 80E7)
+# OpenCore 1.0.3 Stable - macOS Monterey 12 - Lenovo Z50-70 (Type 80E7)
 
 **Haswell** system (2013 Intel 4th-gen core cpu) support up to **macOS 12 Monterey**.
 macOS 13 Ventura and newer you need [OpenCore Legacy Patcher](https://dortania.github.io/OpenCore-Legacy-Patcher/). check below.
