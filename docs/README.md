@@ -75,14 +75,14 @@ from `EFI/OC/Kexts` folder and `config.plist` then replace with one that work fo
 * Processor: `4th gen Core i7-4510U Haswell`
 * CPUID: `Intel(R) Core(TM) i7-4510U CPU @ 2.00GHz`
 * iGPU: `intel HD Graphics 4400`
-* dGPU: `GeForce GT 840M 4gb`
+* dGPU: ~~`GeForce GT 840M 4gb`~~
 * Ram: `8gb 4x2`
 * DRIVE1 SSD: `WD Green 240GB SATA 2.5 SSD (WDC WDS240G2G0A-00JH30)`
 * DRIVE2 HDD: `Samsung 1TB SATA 2.5 HDD (ST1000LM024 HN-M101MBB)`
 * Keyboard&Trackpad connection type: `PS/2`
 * Audio: `Conexant CX20751/2 @ Intel Lynx Point-LP PCH - High Definition Audio Controller [B2]`
 * Ethernet: `Realtek RTL8168/8111 PCI-E Gigabit Ethernet Adapter (PHY: Realtek RTL8111)`
-* WLAN: `Qualcomm Atheros AR9565 802.11b/g/n Wireless Network Adapter (Old) / Intel Dual Band Wireless AC 3160`
+* WLAN: ~~`Qualcomm Atheros AR9565 802.11b/g/n Wireless Network Adapter`~~ `Intel Dual Band Wireless AC 3160`
 
 ## How to check laptop model
 * To check **laptop model** head to [Lenovo Z50-70 support](https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/lenovo-z-series-laptops/lenovo-z50-70) page. then enter your serial number in the box (S/N number located under your laptop) and then check your laptop name and type (E.g. `Z50-70 Laptop (Lenovo) - Type 80E7`)
