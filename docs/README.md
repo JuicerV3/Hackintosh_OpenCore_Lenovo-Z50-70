@@ -4,7 +4,7 @@
 
 **Haswell** system (2013 Intel 4th-gen core cpu) support up to **macOS 12 Monterey**.
 macOS 13 Ventura and newer you need [OpenCore Legacy Patcher](https://dortania.github.io/OpenCore-Legacy-Patcher/). check below.
-* [[OCLP] Ventura 13 Lenovo Z5070](./README_VT.md)
+* [[OCLP] Ventura 13 Lenovo Z5070](./README_VT.md) (Update: Mar 10th 2025)
 * [[OCLP] Sonoma 14 Lenovo Z5070](./README_SN.md)
 
 ```
