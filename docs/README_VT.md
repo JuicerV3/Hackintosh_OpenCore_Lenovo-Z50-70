@@ -18,7 +18,7 @@ Keep in mind macOS 13 Ventura is **NOT NATIVELY** supported for Haswell system. 
 #### ***Every laptop are difference, even those with the same model number. So use this EFI as a reference and edit accordingly to your own hardware.***
 
 ### You need to generate your own SMBIOS to signin with Apple ID
-Use CorpNewt's [GENSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate platforminfo using `MacBook10,1` as an SMBIOS for Ventura. Head to [Dortania's haswell platforminfo guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/haswell.html#platforminfo) for in-depth guide.
+Use CorpNewt's [GENSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate platforminfo using `MacBookPro14,1` as an SMBIOS for Ventura. Head to [Dortania's haswell platforminfo guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/haswell.html#platforminfo) for in-depth guide.
 
 ### What works (Sep 19, 2024)
 Most things is handle by OpenCore we only use OCLP for GPU Acceleration
