@@ -691,6 +691,8 @@
 			<false/>
 			<key>AvoidRuntimeDefrag</key>
 			<true/>
+			<key>ClearTaskSwitchBit</key>
+			<false/>
 			<key>DevirtualiseMmio</key>
 			<false/>
 			<key>DisableSingleUser</key>
@@ -1805,7 +1807,7 @@
 			<key>SystemUUID</key>
 			<string>NEED GENSMBIOS</string>
 		</dict>
-		<key>UpdateDataHub</key> 
+		<key>UpdateDataHub</key>
 		<true/>
 		<key>UpdateNVRAM</key>
 		<true/>
